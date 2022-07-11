@@ -1,0 +1,63 @@
+/**index.wxss**/
+ec-canvas {
+  width: 100%;
+  height: 100%;
+}
+.chart{
+  width: 100%;
+  height: 800rpx;
+}
+.detail {
+  background: #6ab04c;
+  width: 100%;
+  height: 600rpx;
+}
+
+.title1{
+  font-size: 40rpx;
+  font-weight: 800;
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  color: lightgoldenrodyellow;
+}
+.title2{
+  font-size: 40rpx;
+  font-weight: 800;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  color: lightgoldenrodyellow;
+}
+
+.data1{
+  font-size: 32rpx;
+  font-weight: 800;
+  position: absolute;
+  top: 8%;
+  left: 24%;
+  color: red;
+}
+.data2{
+  font-size: 32rpx;
+  font-weight: 800;
+  position: absolute;
+  top: 28%;
+  left: 24%;
+  color: red;
+}
+.warn{
+    font-weight: 800;
+    font-size: 150px;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+    background-color: red;
+    color: yellow;
+    width: 400px;
+    padding: 0px;
+    margin: 0px;
+    height: 600rpx;
+  
+}

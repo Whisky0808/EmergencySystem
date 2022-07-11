@@ -1,0 +1,23 @@
+.detail {
+  background: #6ab04c;
+  width: 100%;
+  height: 600rpx;
+}
+
+.title {
+  font-size: 60rpx;
+  font-weight: 800;
+  position: absolute;
+  top: 15%;
+  left: 34%;
+  color: aliceblue;
+}
+
+.data {
+  font-size: 60rpx;
+  font-weight: 800;
+  position: absolute;
+  top: 20%;
+  left: 43%;
+  color: aliceblue;
+}

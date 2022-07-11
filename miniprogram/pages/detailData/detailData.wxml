@@ -1,0 +1,16 @@
+<view class="content">
+  <view class="detail">
+    <view class="head">
+      <text class="title">{{title}}</text>
+      <text class="data">
+        {{data}}
+      </text>
+      <text class="time">
+        {{time}}
+      </text>
+    </view>
+  </view>
+  <view class="chart">
+
+  </view>
+</view>

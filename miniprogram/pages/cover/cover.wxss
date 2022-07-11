@@ -1,0 +1,40 @@
+/* pages/cover/cover.wxss */
+page{
+	height: 100%;
+}
+.bg{
+	height: 100%;
+	width: 100%;
+  background: #778beb;
+  
+}
+.text{
+  height: 600rpx;
+  width: 100%;
+  background: rgb(247, 246, 244);
+}
+.txt1{
+  font-size:60rpx;
+  font-weight: 800;
+  position: relative;
+  top:20%;
+  left:5%;
+  background: rgb(247, 246, 244);
+  color:#0f0f0e;
+}
+.txt3{
+  position: relative;
+  top:20%;
+  left:60%;
+}
+.txt2{
+  font-size:40rpx;
+  font-weight: 800;
+  font-family: Helvetica, ‘Hiragino Sans GB’, ‘Microsoft Yahei’, ‘微软雅黑’, Arial, sans-serif;
+  position: relative;
+  top:20%;
+  left:5%;
+  width: 100%;
+  background: rgb(247, 246, 244);
+  color:#0f0f0e;
+}

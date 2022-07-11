@@ -1,0 +1,47 @@
+<view class="content">
+    <view class="detail" style="{{'background:'+('url('+imgUrl+');background-size:100% 110%')+';'+'z-index: 9;'}}">
+        
+    </view>
+    <view class="detail2">
+        <view class="category">
+            <view class="box"  bindtap="diedao">
+                <image class="image" src="../../icon/homeImg/diedao.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">          
+                </image>
+                
+            </view>
+            <view class="box"  bindtap="shidu">
+                <image class="image" src="../../icon/homeImg/shidu.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">          
+                </image>
+                
+            </view>
+            <view class="box"  bindtap="wendu">
+                <image class="image" src="../../icon/homeImg/wendu.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">          
+                </image>
+                
+            </view>
+            <view class="box" bindtap="xinya">
+                <image class="image" src="../../icon/homeImg/xinya.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+                </image>
+               
+            </view>
+            
+            
+        </view>
+    </view>
+    <view class="detail3">
+        <swiper class="swiper" indicator-dots="true" indicator-color="white" autoplay="ture" circular="{{true}}">
+            <swiper-item>
+                <image class="swiperImg" src="../../images/swiper1.jpg"></image>
+            </swiper-item>
+            <swiper-item>
+                <image class="swiperImg" src="../../images/swiper2.jpg"></image>
+            </swiper-item>
+            <swiper-item>
+                <image class="swiperImg" src="../../images/swiper3.jpg"></image>
+            </swiper-item>
+        </swiper>
+    </view>
+    <view class="detail4">
+        <image src="../../icon/homeImg/kandian.png" class="kandian"></image>
+    </view>
+</view>

@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/cover/cover",
+    "pages/Info/Info",
+    "pages/home/home",
+    "pages/individual/individual",
+    "pages/detailData/detailData",
+    "pages/xinyaData/index",
+    "pages/diedaoData/diedao",
+    "pages/wenduData/index",
+    "pages/shiduData/index",
+    "pages/AllDetail/AllDetail"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "LoRa独居老人",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#f1f3f7",
+    "backgroundColor": "#f7f1e3",
+    "list": [
+     
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "icon/shouye1.png",
+        "selectedIconPath": "icon/shouye2.png"
+      },
+      {
+        "pagePath": "pages/AllDetail/AllDetail",
+        "iconPath": "icon/shuju1.png",
+        "selectedIconPath": "icon/shuju2.png"
+      },
+      {
+        "pagePath": "pages/individual/individual",
+        "iconPath": "icon/wode1.png",
+        "selectedIconPath": "icon/wode2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

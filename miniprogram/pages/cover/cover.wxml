@@ -1,0 +1,25 @@
+<view class="bg" style="{{'background:'+('url('+imgUrl+');background-size:100% 110%')+';'+'z-index: 9;'}}">
+  <mp-half-screen-dialog 
+  bindbuttontap="buttontap"
+  closabled="{{false}}"
+  show="{{show}}"
+  maskClosable="{{false}}" 
+  title="授权登陆"   
+  desc="用户接受授权登陆，我们平台将拿到您加密后的微信个人信息"
+  buttons="{{buttons}}"
+></mp-half-screen-dialog>
+
+  <view class="text" animation="{{animation3}}">
+    <text animation="{{animation1}}" class="txt1">
+      关爱老人生活
+    </text>
+    <text animation="{{animation2}}" class="txt2">
+      基于LoRa的独居老人应急通讯系统
+    </text>
+    <text class="txt3" animation="{{animation1}}">
+      -物联网新时代
+    </text>
+
+  </view>
+
+</view>
